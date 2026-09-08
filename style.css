@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: "Yu Gothic", sans-serif;
+    background-color: #f0f3f8;
+}
+
+header {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0078d4;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#answer {
+    margin-top: 20px;
+    padding: 15px;
+    background: #eef6ff;
+    border-left: 5px solid #0078d4;
+    min-height: 40px;
+}
+
+/* 手順書検索 */
+#searchBox {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+}

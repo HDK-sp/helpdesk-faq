@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ヘルプデスクFAQ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ヘルプデスクFAQ</h1>
+        <p>
+            対応時間：10:00-20:00│
+            電話番号：03-1234-5678│
+            メール：help@example.com
+        </p>
+    </header>
+
+    <main class="container">
+        <!-- FAQ -->
+        <section class="card">
+            <h2>よくあるお問い合わせ</h2>
+            <select id="questionSelect">
+                <option value="">--項目を選択--</option>
+                <option value="account">アカウントについて</option>
+                <option value="password">パスワードについて</option>
+                <option value="network">ネットワークについて</option>
+                <option value="application">アプリケーションについて</option>
+                <option value="device">機器について</option>
+            </select>
+            <div id="answer"></div>
+        </section>
+
+        <!-- 検索 -->
+        <section class="card">
+            <h2>手順書検索</h2>
+            <input type="text" id="searchBox" placeholder="手順書名を入力してください">
+        </section>
+
+        <!-- 手順書 -->
+        <section class="card">
+            <h2>手順書一式</h2>
+            <ul id="manualList">
+                <li><a href="pdf/a.pdf" target="_blank" rel="noopener">手順書A</a></li>
+                <li><a href="pdf/i.pdf" target="_blank" rel="noopener">手順書I</a></li>
+                <li><a href="pdf/u.pdf" target="_blank" rel="noopener">手順書U</a></li>
+            </ul>
+        </section>
+
+        <!-- 手順動画 -->
+        <section class="card">
+            <h2>手順動画</h2>
+            <p>準備中👷</p>
+            <p>準備ができ次第、掲載予定</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
